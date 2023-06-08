@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ## 檔案說明
 我們將 public_train.jsonl 跟 public_train_0522.jsonl 合併成 `public_train_all.jsonl`
 以及public_test.jsonl 跟 private_test_data.jsonl 合併成 `public_private_combine_test_data.jsonl`
-<br>而有兩個檔案太大請[train_doc5_all_page_other_predictor.jsonl](https://drive.google.com/file/d/17171E3S6HRH9tFwtnhItrS-Vhms7Ce9O/view?usp=drive_link)以及[combine_test_doc5_all_page_with_sentences.jsonl](https://drive.google.com/file/d/1Jrs2aQVZX4JVqGHpfMGzmUIq7BSPkYuj/view?usp=drive_link)自行下載
+<br>而有兩個檔案太大[train_doc5_all_page_other_predictor.jsonl](https://drive.google.com/file/d/17171E3S6HRH9tFwtnhItrS-Vhms7Ce9O/view?usp=drive_link)以及[combine_test_doc5_all_page_with_sentences.jsonl](https://drive.google.com/file/d/1Jrs2aQVZX4JVqGHpfMGzmUIq7BSPkYuj/view?usp=drive_link)請自行下載
 * **`hanlp_con_results.pkl:`** 為 public_train_all.jsonl 的 hanlp_results
 
 * **`hanlp_con_combine_test_results_imp.pkl:`** 為 public_private_combine_test_data.jsonl 的 hanlp_results
